@@ -8,7 +8,7 @@ terraform {
 }
 
 module "common" {
-  source    = "https://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@github.com:ravenky/terraform-azure-ref-common-module"
+  source    = "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@github.com:ravenky/terraform-azure-ref-common-module"
   location  = var.location
   tenant_id = var.tenant_id
 }
