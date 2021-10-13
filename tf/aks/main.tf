@@ -4,7 +4,7 @@ terraform {
 }
 
 module "aks" {
-  source                          = "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@github.com:ravenky/terraform-azure-ref-aks-module"
+  source                          = "git::https://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@github.com:ravenky/terraform-azure-ref-aks-module"
   environment                     = var.environment
   location                        = var.location
   kubernetes_version              = var.kubernetes_version
