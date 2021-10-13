@@ -2,8 +2,8 @@
 
 set -e
 
-export LOCATION=westeurope
+export LOCATION=eastus
 export COMMON_RESOURCE_GROUP_NAME=terraform-ref-rg
-export TF_STATE_STORAGE_ACCOUNT_NAME=tfstate2195
+export TF_STATE_STORAGE_ACCOUNT_NAME=tfstatestorac
 export TF_STATE_CONTAINER_NAME=tfstate-ref
-export KEYVAULT_NAME=terraform-ref-kv
+export KEYVAULT_NAME=terrvaulkv12
